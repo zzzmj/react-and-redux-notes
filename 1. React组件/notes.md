@@ -108,7 +108,7 @@ React的生命周期分为三个阶段
 
 
 如图所示
-![react生命周期zh](/assets/react生命周期zh.png)
+![](http://ww1.sinaimg.cn/large/006PpBLoly1g432ldnltrj30yo0oa75w.jpg)
 
 讲解
 
