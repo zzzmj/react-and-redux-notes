@@ -6,7 +6,7 @@ const style = {
     magrin: '20px'
 }
 
-class App extends Component {
+class CounterPanel extends Component {
     render() {
         return (
             <div style={style}>
@@ -20,4 +20,4 @@ class App extends Component {
     }
 }
 
-export default App
+export default CounterPanel

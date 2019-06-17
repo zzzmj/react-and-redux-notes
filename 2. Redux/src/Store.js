@@ -1,4 +1,4 @@
-import { createStore } from 'redux'
+import createStore from './Redux'
 import reducer from './Reducer.js'
 
 const initValue = {

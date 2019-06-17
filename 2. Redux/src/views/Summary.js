@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
-import Store from '../Store';
+import PropTypes from 'prop-types'
 
-class App extends Component {
-    constructor(props) {
-        super(props)
+class Summary extends Component {
+    constructor(props, context) {
+        super(props, context)
         this.state = this.getOwnState()
         this.onChange = this.onChange.bind(this)
         this.getOwnState = this.getOwnState.bind(this)
     }
 
     componentDidMount() {
-        Store.subscribe(this.onChange)
+        this.context.store.subscribe(this.onChange)
     }
 
     componentWillUnmount() {
-        Store.unsubscribe(this.onChange)
+        this.context.store.unsubscribe(this.onChange)
     }
 
     onChange() {
@@ -22,7 +22,7 @@ class App extends Component {
     }
 
     getOwnState() {
-        const state = Store.getState()
+        const state = this.context.store.getState()
         let sum = 0
         for (const key in state) {
             if (state.hasOwnProperty(key)) {
@@ -43,4 +43,8 @@ class App extends Component {
     }
 }
 
-export default App
+Summary.contextTypes = {
+    store: PropTypes.object
+}
+
+export default Summary
