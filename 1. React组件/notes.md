@@ -156,3 +156,5 @@ render和shouldComponentUpdate函数，也是React生命周期函数中唯二两
 render函数的返回结果将用于构造DOM对象，而
 shouldComponent-Update函数返回一个布尔值，告诉React库这个组件在这次
 更新过程中是否要继续。
+
+值得一提的是，通过this.setState函数引发更新过程，并不是立刻更新组件的state值，在执行到到函数shouldComponentUpdate的时候，this.state依然是this.setState函数执行之前的值，所以我们要做的实际上就是在nextProps、nextState、this.props和this.state中互相比对。
