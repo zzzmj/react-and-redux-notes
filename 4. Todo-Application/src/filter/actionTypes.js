@@ -1,0 +1,4 @@
+export const ALL = 'FILTER/ALL'
+export const COMPLETED = 'FILTER/COMPLETED'
+export const UNCOMPLETED = 'FILTER/UNCOMPLETED'
+

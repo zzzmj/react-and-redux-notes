@@ -39,8 +39,39 @@ filter/
 
 ## 2. 模块接口
 
-统一使用export的方式，不使用export default
+统一使用export的方式，不使用export default。
 
 ## 3. 状态树的设计
 
 前两个任务像是规矩，这个就得需要思考一下。
+
+设计状态树要遵循几个原则
+1. 一个模块控制一个状态节点。
+2. 避免冗余数据。
+3. 树形结构扁平，不要把状态树写的太深。
+
+## 4. Todo应用
+
+Todo应用看上去有三个功能
+- 待办事项的列表。
+- 增加待办事项的输入框和按钮。
+- 待办事项过滤器，可以选择过滤不同状态的待办事项。
+
+好好做-。-，TodoList写起来也挺费劲的
+
+## 5. 安装扩展
+
+- React Devtools，可以检视React组件的树形结构
+- Redux Devtools，可以检视Redux数据流，可以将Store状态跳跃到任何
+一个历史状态，也就是所谓的“时间旅行”功能
+
+除了React Devtools是浏览器自带的
+其他两个扩展都需要在项目中引入
+
+Redux Devtools用法
+```js
+const middlewares = []
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+const store = createStore(reducer, {}, composeEnhancers(applyMiddleware(...middlewares)))
+```
