@@ -5,11 +5,17 @@
 
 ## 2. 目录
 1. [react基础与生命周期](https://github.com/zzzmj/react-and-redux-notes/blob/master/1.%20React%E7%BB%84%E4%BB%B6/notes.md)
-2. [redux](https://github.com/zzzmj/react-and-redux-notes/blob/master/2.%20%E4%BB%8EFlux%E5%88%B0Redux/Redux.md)
-3. [react-redux]()
+2. [redux](https://github.com/zzzmj/react-and-redux-notes/blob/master/2.%20Redux/1.%20Redux.md)
+3. [容器组件与傻瓜组件](https://github.com/zzzmj/react-and-redux-notes/blob/master/2.%20Redux/2.%20%E5%AE%B9%E5%99%A8%E7%BB%84%E4%BB%B6%E4%B8%8E%E5%82%BB%E7%93%9C%E7%BB%84%E4%BB%B6.md)
+4. [context组件](https://github.com/zzzmj/react-and-redux-notes/blob/master/2.%20Redux/3.%20Context%E7%BB%84%E4%BB%B6.md)
+5. [react-redux](https://github.com/zzzmj/react-and-redux-notes/blob/master/3.%20React-Redux/react-redux.md)
+6. [react组件的性能优化](https://github.com/zzzmj/react-and-redux-notes/blob/master/5.%20React%E7%BB%84%E4%BB%B6%E7%9A%84%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/notes.md)
+7. [redux与服务器通信](https://github.com/zzzmj/react-and-redux-notes/blob/master/7.%20Redux%E4%B8%8E%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%80%9A%E4%BF%A1/notes.md)
+8. [深入理解setState](https://github.com/zzzmj/react-and-redux-notes/blob/master/advancing-react/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3setState.md)
 
-实现一个redux：[源码]()
-实现一个Provider：[源码]()
+实现一个简易版redux：[源码](https://github.com/zzzmj/react-and-redux-notes/blob/master/2.%20Redux/src/Redux.js)
+
+实现一个简易版Provider：[源码](https://github.com/zzzmj/react-and-redux-notes/blob/master/2.%20Redux/src/Provider.js)
 
 ## 3. 思维导图
 对于React和Redux比较好的一些思维导图
@@ -45,3 +51,5 @@ Redux工作流程图
 [前端开发如何独立解决跨域问题](https://www.cnblogs.com/softidea/p/7425894.html)
 
 [很难理解的中间件原理以及redux-thunk中间件应用，溜溜的！](https://github.com/zp1112/blog/issues/11)
+
+[进击的React](https://zhuanlan.zhihu.com/advancing-react)
