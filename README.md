@@ -41,3 +41,7 @@ Redux工作流程图
 [聊一聊我对 React Context 的理解以及应用](https://juejin.im/post/5a90e0545188257a63112977#heading-17)
 
 [Redux 入门教程（三）：React-Redux 的用法](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_three_react-redux.html)
+
+[前端开发如何独立解决跨域问题](https://www.cnblogs.com/softidea/p/7425894.html)
+
+[很难理解的中间件原理以及redux-thunk中间件应用，溜溜的！](https://github.com/zp1112/blog/issues/11)
